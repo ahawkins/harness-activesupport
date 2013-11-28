@@ -1,12 +1,12 @@
-# Harness::Varnish
+# Harness::ActiveSupport
 
-TODO: Write a gem description
+Collect metrics from ActiveSupport and forward them to Harness
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'harness-varnish'
+    gem 'harness-activesupport'
 
 And then execute:
 
@@ -14,11 +14,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install harness-varnish
+    $ gem install harness-activesupport
 
 ## Usage
 
-TODO: Write usage instructions here
+All you need to do is require the gem:
+
+```ruby
+require 'harness-activesupport'
+```
 
 ## Contributing
 
